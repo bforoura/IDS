@@ -1,0 +1,17 @@
+import numpy as np
+import pandas as pd
+from sklearn import linear_model
+
+companyDF = pd.read_csv('https://raw.githubusercontent.com/bforoura/AML/master/Company_data.csv')
+
+lm = linear_model.LinearRegression()
+
+# reshape arrays; -1 means we don't specify #rows
+X = companyDF[['TV', 'Radio', 'Newspaper']]
+y = companyDF['Sales'].values.reshape(-1,1)
+
+
+# Fit the model using .fit() method
+lm.fit(X, y)
+
+# lm.coef_  and lm.intercept_

@@ -1,4 +1,4 @@
-ID,Age,Type,Price Range,Capacity,Area,Number of Menu Items,Profit
+ID,Age,Type,Price_Range,Capacity,Area,Number_of_MenuItems,Profit
 0,Developed,Cafeteria,$$,90-100,Downtown,Salad & Sandwich only,40147
 1,Developed,Cafeteria,$$$,<10,Downtown,7-10,68297
 2,Developed,Banquet,$$$$$,30-50,Suburbs,Salad & Sandwich only,68691

@@ -1,0 +1,4 @@
+SCRIPT_REAL("
+return tabpy.query('Restaurant_Profitability',_arg1,_arg2,_arg3,_arg4,_arg5,_arg6)['response']
+"
+,ATTR([Area]),ATTR([Age]),ATTR([Type]),ATTR([Price Range]),ATTR([Capacity]),ATTR([Number of Menu Items]))

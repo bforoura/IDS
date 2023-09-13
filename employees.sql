@@ -1,7 +1,7 @@
 create table employees (
      empID     integer(6) primary key,
      empName   varchar(50),
-     gender    enum('M', 'F'),
+     gender    char(1),
      salary    integer(12));
 
 insert into employees values(334332, 'Daniel', 'M', 2300);
